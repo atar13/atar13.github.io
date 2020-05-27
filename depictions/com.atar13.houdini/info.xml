@@ -25,12 +25,14 @@
 			<image>IMG_1360.png</image>
 		</screenshot>
 		<screenshot>
+			<!-- <description>Clock/Date hidden(continued)</description> -->
 			<image>IMG_1361.png</image>
 		</screenshot>
 		<screenshot>
 			<description>Clock/Date showing</description>
 			<image>IMG_1362.png</image>
-		</screenshots>
+		</screenshot>
+	</screenshots>
 	<changelog>
 		<change>Initial release</change>
 	</changelog>
