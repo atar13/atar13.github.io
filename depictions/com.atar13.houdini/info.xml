@@ -24,7 +24,13 @@
 			<description>Clock/Date hidden</description>
 			<image>IMG_1360.png</image>
 		</screenshot>
-	</screenshots>
+		<screenshot>
+			<image>IMG_1361.png</image>
+		</screenshot>
+		<screenshot>
+			<description>Clock/Date showing</description>
+			<image>IMG_1362.png</image>
+		</screenshots>
 	<changelog>
 		<change>Initial release</change>
 	</changelog>
