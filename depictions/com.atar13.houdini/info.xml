@@ -19,7 +19,9 @@
 		<description>The tap mode acts as a toggle, allowing the user to turn on and off their clock/date at will. The long press mode shows the clock/date for a brief period of time until hiding it. </description>
 		<description>Check the preferences for lots of customizability. New features are on the way (stay tuned). Also coming to packix soon. If you have any bugs, issues or feature requests please contact me through any of the services below.	Any kind of feedback or comments are appreciated.</description>
 	</descriptionlist>
-	<screenshots></screenshots>
+	<screenshots>
+		<img src="repoIcon.png">
+	</screenshots>
 	<changelog>
 		<change>Initial release</change>
 	</changelog>
