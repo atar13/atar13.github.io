@@ -20,10 +20,10 @@
 		<description>Check the preferences for lots of customizability. New features are on the way (stay tuned). Also coming to packix soon. If you have any bugs, issues or feature requests please contact me through any of the services below.	Any kind of feedback or comments are appreciated.</description>
 	</descriptionlist>
 	<screenshots>
-		<!-- <screenshot>
+		<screenshot>
 			<description>Clock/Date hidden</description>
-			<image>repoIcon.png</image>
-		<screenshot> -->
+			<!-- <image>repoIcon.png</image> -->
+		<screenshot>
 	</screenshots>
 	<changelog>
 		<change>Initial release</change>
