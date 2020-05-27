@@ -6,6 +6,21 @@
 			<iconclass>fa fa-twitter</iconclass>
 		</link>
 		<link>
+			<name>Source code on Github</name>
+			<url>https://github.com/atar13</url>
+			<iconclass>fa fa-github</iconclass>
+		</link>
+		<link>
+			<name>Send me an email</name>
+			<url>mailto:atar13dev@gmail.com"</url>
+			<iconclass>fa fa-envelope</iconclass>
+		</link>
+		<link>
+			<name>Message me on Reddit</name>
+			<url>https:reddit.com/u/atar13</url>
+			<iconclass>fa fa-reddit</iconclass>
+		</link>
+		<link>
 			<name>I want this depiction template</name>
 			<url>https://github.com/supermamon/Reposi3/</url>
 			<iconclass>fa fa-thumbs-up</iconclass>
