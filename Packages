@@ -1,16 +1,15 @@
 Package: com.atar13.houdini
-Version: 1.0.1
+Version: 1.1
 Architecture: iphoneos-arm
 Maintainer: atar13 <atar13dev@gmail.com>
-Installed-Size: 300
 Depends: mobilesubstrate, preferenceloader, ws.hbang.common
 Filename: ./debs/com.atar13.houdini_1.0.1_iphoneos-arm.deb
-Size: 20176
-MD5sum: 0a7b19677926825bb57bf732bc164f12
-SHA1: 94b7e1b114833e7c6666b7612464f7149fa12130
-SHA256: 7f8bbe4dc67ef7e1ef6d157ffb656a0d98a06783aa33247357603cb904ca6e6f
+Size: 31772
+MD5sum: ec126d1e0fd7ad624ea6ea874ebe2a9a
+SHA1: 0fbaa27f0ab9c36d97243674146224d70f940d28
+SHA256: 95042b47346343dc06f812870601e0969e4f715d53d22f89fdcbbdff497aaa19
 Section: Tweaks
-Description: By default hides the lock screen clock until the user manually taps the screen.
+Description: Only shows lock screen clock, notifications, and elements when the user taps or holds down on the lock screen.
 Author: atar13 <atar13dev@gmail.com>
 Depiction: https://atar13.github.io/depictions/?p=com.atar13.houdini
 Icon: https://atar13.github.io/package_icons/houdini.png
