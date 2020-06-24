@@ -17,7 +17,8 @@
 		<description>Ever felt like your lockscreen clock was blocking your breathtaking wallpaper?</description> 	
 		<description>Houdini solves this issue by hiding the clock/date, notifications and other lock screen elements and only showing them when the user taps or holds down. </description>
 		<description>You can choose between a tap/long press and a toggle/automatic hide mode. </description>
-		<description>Support tweaks like: Jellyfish, Kalm, Axon, Complications, Dualclock</description>
+		<description>Support tweaks like: Jellyfish, Kalm, Axon, Complications, Dualclock.</description>
+		<description>Not Compatible with SimpleLS2 and partly compatible with ColorFlow 5's full scren mode.</description>
 	</descriptionlist>
 	<screenshots>
 		<screenshot>
