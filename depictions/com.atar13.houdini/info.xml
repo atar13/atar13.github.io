@@ -35,9 +35,7 @@
 	<changelog>
 	<changes>
 		<change>
-			Now can hide: Notifications, Quick Action Toggles, FaceID Lock, Unlock Text, Axon, Kalm, Jellyfish, Complications, and Dualclock
-
-			Added an option to hide lockscreen elements upon screen lock
+			Now can hide: Notifications, Quick Action Toggles, FaceID Lock, Unlock Text, Axon, Kalm, Jellyfish, Complications, and Dualclock. Added an option to hide lockscreen elements upon screen lock
 		</change>
 	</changes>
 	</changelog>
