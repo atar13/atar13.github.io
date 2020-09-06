@@ -7,7 +7,7 @@
 		<version>1.0.1</version>
 		<change>Fixed Cephei dependecy</change>
 	</changes>
-		<changes>
+	<changes>
 		<version>1.1</version>
 		<change>Now can hide:
 Notifications,
@@ -25,5 +25,9 @@ Dualclock
 
 
 Added an option to hide lockscreen elements upon screen lock</change>
+	</changes>
+	<changes>
+		<version>1.2</version>
+		<change>Added long press toggle mode</change>
 	</changes>
 </changelog>
