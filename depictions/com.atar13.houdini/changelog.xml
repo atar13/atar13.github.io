@@ -1,5 +1,10 @@
 <changelog>	
 	<changes>
+		<version>1.3</version>
+		<change>Fixed a bug where the quick action toggles wouldn't hide on iPhone X+</change>
+		<change>Fixed a bug where the unlock text wouldn't be hidden</change>
+	</changes>
+	<changes>
 		<version>1.2</version>
 		<change>Added long press toggle mode</change>
 	</changes>
