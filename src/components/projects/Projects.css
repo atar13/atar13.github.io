@@ -1,0 +1,54 @@
+
+
+.projects-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-flow: row;
+    justify-items: center;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding-top: 5%;
+    padding-bottom: 20%;
+    height: fit-content;
+    row-gap: 10%;
+    column-gap: 0;
+    background-color: blueviolet;
+    border-radius: 10px;
+    /* display: none; */
+}
+
+.project-container {
+    background-color: #2B2D30;
+    border-radius: 10px;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 5%;
+    text-align: left;
+    width: 60%;
+}
+
+
+.project-description {
+    font-family: 'Cabin';
+    color: white;
+}
+
+.project-title {
+    font-family: 'Cabin';
+    color: white;
+}
+
+.project-language {
+    font-family: 'Cabin';
+    color: white;
+}
+
+.projects-title {
+    font-family: 'Rubik';
+    color: white;
+    text-align: center;
+}
+
+.hidden {
+    display: none;
+}

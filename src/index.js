@@ -14,6 +14,7 @@ ReactDOM.render((
       <Route exact path = "/" component = {Home}/>
       <Route exact path = "/repo" component = {Repo}/>
       <Route exact path = "/projects" component = {Projects}/>
+      {/* <Route to={window.location.pathname} hash="/#">Projects</Route> */}
     </BrowserRouter>
   </React.StrictMode>), 
 document.getElementById('root'));
