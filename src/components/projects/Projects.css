@@ -12,7 +12,7 @@
     height: fit-content;
     row-gap: 10%;
     column-gap: 0;
-    background-color: blueviolet;
+    background-color: #5a0fa0;
     border-radius: 10px;
     /* display: none; */
 }
@@ -25,6 +25,8 @@
     padding: 5%;
     text-align: left;
     width: 60%;
+    overflow: hidden;
+    box-shadow: 0px 12px 18px -6px rgba(0, 0, 0, 0.6);
 }
 
 
