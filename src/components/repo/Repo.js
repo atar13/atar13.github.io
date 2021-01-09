@@ -1,7 +1,10 @@
 import React from 'react'
 import Navbar from '../navbar/Navbar'
+import Depiction from './depictions/Depiction'
 import './Repo.css'
 
+//add to cydia, zebra
+//grid of tweaks 
 function Repo() {
     return (
         <div>

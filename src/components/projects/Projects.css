@@ -1,3 +1,4 @@
+@import url("aos/dist/aos.css");
 
 
 .projects-container {
@@ -10,7 +11,7 @@
     padding-top: 5%;
     padding-bottom: 20%;
     height: fit-content;
-    row-gap: 10%;
+    row-gap: 5%;
     column-gap: 0;
     background-color: #5a0fa0;
     border-radius: 10px;
@@ -54,3 +55,13 @@
 .hidden {
     display: none;
 }
+
+@media only screen and (max-width: 1200px) {
+    .projects-container {
+        grid-template-columns: 1fr;
+        margin-left: 5%;
+        margin-right: 5%;
+        row-gap: 2%;
+    }
+
+  }
