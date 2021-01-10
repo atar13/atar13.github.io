@@ -15,6 +15,7 @@ function Changelog(props) {
 
     return (
         <div class="tweak-description">
+            <h1>Changelog</h1>
             <ul style={{listStyleType:"none"}}>
                 {versions.map((version) => (
                     <li>

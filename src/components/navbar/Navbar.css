@@ -1,5 +1,5 @@
 .navbar-container {
-    background-color: #5a0fa0;
+    background-color: #6947a0;
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -46,3 +46,13 @@ body {
     margin: 0;
     background-color: black;
 }
+
+@media only screen and (max-width: 1400px) {
+
+    .navbar-item {
+        font-size: 1rem;
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+    }
+    
+  }

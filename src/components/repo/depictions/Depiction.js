@@ -1,9 +1,5 @@
-//view changelog
-//view screenshots
-//summary of recent changes
-//version number
-//compatibility
-//script to check for iOS compatibility
+//add a return to main page button 
+//fix footer
 
 import React from 'react'
 import { Link } from 'react-router-dom'
@@ -81,7 +77,7 @@ function Depiction(props) {
                     <li>{change}</li>
                 ))}
             </ul>
-            <Link to={"/repo/" + bundle + "/changelog"} class="tweak-description" style={{fontSize:"1.5rem"}}>Full Changelog</Link>
+            <Link to={`/repo/${bundle}/changelog`} class="tweak-description" style={{fontSize:"1.5rem", color:"gray"}}>Full Changelog</Link>
             <DepictionFooter />
         </div>
     )

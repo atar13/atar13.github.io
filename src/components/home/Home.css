@@ -44,7 +44,7 @@
     /* color: #d3d3d3; */
     color: floralwhite;
     animation-name: fade;
-    animation-duration: 1.5s;
+    animation-duration: 1s;
     animation-timing-function: ease-in;
 
 }
@@ -54,7 +54,7 @@
     font-size: 2rem;
     font-weight: 500;
     color: #d3d3d3;
-    background-color: #5a0fa0;
+    background-color: #6947a0;
     border-radius: 10px;
     text-align: left;
     margin-right: 10%;
@@ -64,13 +64,13 @@
 
 p {
     animation-name: fade;
-    animation-duration: 3.5s;
+    animation-duration: 1s;
     animation-timing-function: ease-in;
 }
 
 h3 {
     animation-name: fade;
-    animation-duration: 2s;
+    animation-duration: 1s;
     animation-timing-function: ease-in;
 }
 
@@ -90,9 +90,7 @@ h3 {
 
 
 @media only screen and (max-width: 1400px) {
-    body {
-      /* background-color: lightblue; */
-    }
+
     .home-container {
         grid-template-columns: 1fr;
     }

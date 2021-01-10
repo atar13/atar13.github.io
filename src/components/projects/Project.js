@@ -8,11 +8,11 @@ function Project(props) {
     const {title, language, description, id} = props
 
     useEffect(() => {
-        Aos.init({ duration: 2000})
+        Aos.init({ duration: 750})
     }, []);
 
     let fadeDirection = "fade-right"
-    if(id % 2 ==0){
+    if(id % 2 === 0){
         fadeDirection = "fade-left"
     }
     return (
