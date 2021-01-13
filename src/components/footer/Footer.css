@@ -1,0 +1,17 @@
+.footer-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    background-color: #2B2D30;
+}
+
+a {
+    color: white;
+    font-size: large;
+    font-family: Rubik;
+    text-decoration: none;
+}

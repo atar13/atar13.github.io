@@ -1,0 +1,35 @@
+body {
+    background-color: black;
+}
+
+.tweak-name {
+    text-align: center;
+    font-size: 3rem;
+    font-family: 'Cabin';
+}
+
+.tweak-description {
+    color: white;
+    text-align: left;
+    font-size: 1rem;
+    font-family: 'Rubik';
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+#carousel {
+    width: 100%;
+    height: fit-content;
+    background-color: black;
+    
+    overflow: auto;
+    white-space:nowrap;
+
+    padding-bottom: 2%;
+}
+
+#carousel .slide {
+    display: inline-block;
+    padding-right: 5%;
+    
+}

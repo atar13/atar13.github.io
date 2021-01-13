@@ -1,0 +1,15 @@
+{
+  "short_name": "atar13.github.io",
+  "name": "atar13.github.io",
+  "icons": [
+    {
+      "src": "vaonIcon@3x.png",
+      "type": "image/png",
+      "sizes": "87x87"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}

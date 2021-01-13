@@ -1,0 +1,26 @@
+.depiction-footer {
+    color: white;
+    font-weight: bold;
+    font-family: 'Rubik';
+    margin-top: 5%;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+    background-color: #2B2D30;
+    display: grid;
+    grid-auto-flow: row;
+    row-gap: 5%;
+}
+
+.depiction-footer-item {
+    display: grid;
+    grid-template-columns: 5rem 2rem;
+    grid-auto-flow: column;
+    justify-items: center;
+    padding-bottom: 1rem;
+}
+
+label {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
