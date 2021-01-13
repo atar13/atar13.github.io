@@ -21,6 +21,7 @@ function AddToPkg(props){
 }
 
 
+
 function Repo() {
     return (
         <div>
@@ -33,7 +34,7 @@ function Repo() {
             <div style={{display:"grid", placeContent:"center"}}>
                 <h1 style={{display:"grid", placeContent:"center", paddingBottom:"2%"}}>Packages:</h1>
                 {tweaks.map((tweak) => (
-                    <Package name={tweak.name} bundle={tweak.bundle} description={tweak.description} />
+                    <Package name={tweak.name} hidden={tweak.hidden} bundle={tweak.bundle} description={tweak.description} />
                 ))}
             </div>
             <Footer />

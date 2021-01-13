@@ -10,19 +10,19 @@ function Home() {
     return (
         <div>
             <Navbar/>
-            <div style={{paddingTop:'8%'}}/>
+            <div style={{paddingTop:'4%'}}/>
             <div class="home-container">
                 {/* <div class="left"> */}
                     <label class="name">Anthony Tarbinian</label>
                 {/* </div> */}
                 <div class="description">
                     <h3>Welcome!</h3>
-                    <p>I'm an aspiring software developer 
-                        and an undergraduate student studying Computer Science at UC San Diego.</p>
+                    <p>I'm an undergraduate student studying Computer Science at UC San Diego.</p>
                     <p>On this website you can view my personal projects 
                         and access my repository of iOS jailbreak tweaks.</p>
                 </div>
             </div>
+            {/* add a skills section */}
             <div style={{paddingTop:'0%'}}/>
             <div style={{paddingBottom:'5%'}}>
                 <Projects />

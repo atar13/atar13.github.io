@@ -4,10 +4,14 @@ import './Repo.css'
 
 function Package(props) {
 
-    const { name, bundle, description } = props
+    const { name, hidden, bundle, description } = props
     
+    let hiddenStatus
+    if(hidden){
+        hiddenStatus = "none"
+    }
     return (
-        <div className="pkg-wrapper">
+        <div style={{display:hiddenStatus}} className="pkg-wrapper">
             <div className="pkg-name">{name}</div>
             <div className="pkg-summary">{description}</div>
             <Link to={`/repo/${bundle}`}>

@@ -15,8 +15,10 @@ function Projects() {
     let history = useHistory()
     let pathname = history.location.pathname
 
+    function getProject(project){
+        return <Project  title={project.title} language={project.language} description={project.description} id={project.id} source={project.source} alt={project.alt}></Project>
 
-
+    }
 
 
     if(pathname === "/projects"){
@@ -26,12 +28,12 @@ function Projects() {
                 <Navbar />
                 <div style={{paddingTop:'5%'}} />
                 <h1 class="projects-title">Projects</h1>
-                <div class="projects-container">
-                    {projects.map((project) => (
-                        <Project  title={project.title} language={project.language} description={project.description} id={project.id}></Project>
-                    ))}
-                </div>
-                <div style={{paddingTop:'5%'}} />
+                    <div class="projects-container">
+                        {projects.map((project) => (
+                            getProject(project)
+                        ))}
+                    </div>
+=                <div style={{paddingTop:'5%'}} />
                 <Footer />
             </div>
         )
@@ -41,7 +43,7 @@ function Projects() {
                 <h1 class="projects-title">Projects</h1>
                 <div class="projects-container">
                     {projects.map((project) => (
-                        <Project  title={project.title} language={project.language} description={project.description} id={project.id}></Project>
+                        getProject(project)
                     ))}
                 </div>
             </div>
