@@ -6,7 +6,7 @@ h3, h1 {
 
 .add-to-pkg-button {
     
-    background-color: blueviolet;
+    background-color: #7499d5;
     border: none;
     color: white;
     padding: 2rem 4rem;
@@ -18,7 +18,7 @@ h3, h1 {
 }
 
 .add-to-pkg-button-wrapper :hover {
-    /* color: black; */
+    color: #444eaa;
     background-color: #2B2D30;
 }
 
@@ -29,7 +29,7 @@ h3, h1 {
     width: 20rem;
     display: grid;
     justify-items: center;
-    border-radius: 30px;
+    border-radius: 10px;
     padding: 2% 1%;
     margin-bottom: 5%;
 }
@@ -51,7 +51,7 @@ h3, h1 {
 
 .pkg-button{
     font-size: large;
-    background-color: blueviolet;
+    background-color: #c6394d;
     color: white;
     border: none;
     text-decoration: none;

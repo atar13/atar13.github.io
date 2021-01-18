@@ -1,5 +1,5 @@
 .navbar-container {
-    background-color: #6947a0;
+    background-color: #c6394d;
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -7,6 +7,7 @@
     position: sticky;
     top: 0;
     width: 100%;
+    /* background-image: url("2065692.jpg"); */
 }
 
 .navbar-item {
@@ -26,7 +27,7 @@
 }
 
 .navbar-item-wrapper :hover {
-    background-color: #2B2D30;
+    background-color: #0f0d11;
 }
 
 .navbar-icons {
@@ -39,12 +40,12 @@
 } 
 
 .active {
-    background-color: #2B2D30;
+    background-color: #0f0d11;
 }
 
 body {
     margin: 0;
-    background-color: black;
+    background-color: #0f0d11;
 }
 
 @media only screen and (max-width: 1400px) {

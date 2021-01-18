@@ -1,19 +1,19 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
 import reportWebVitals from './reportWebVitals';
+import { BrowserRouter, HashRouter, Route, Switch } from "react-router-dom";
+
 import Home from './components/home/Home';
-import { BrowserRouter , Route } from "react-router-dom";
 import Projects from './components/projects/Projects';
 import Repo from './components/repo/Repo';
 import Depiction from './components/repo/depictions/Depiction';
-import tweaks from './components/repo/tweaks.json'
 import Changelog from './components/repo/depictions/Changelog';
 
+import tweaks from './components/repo/tweaks.json'
 
 ReactDOM.render((
-  <React.StrictMode>
-    <BrowserRouter>
+    <HashRouter basename='/'>
+    <Switch>
       <Route exact path = "/" component = {Home}/>
       <Route exact path = "/repo" component = {Repo}/>
       <Route exact path = "/projects" component = {Projects}/>
@@ -32,8 +32,9 @@ ReactDOM.render((
         <Route exact path = {"/repo/" + tweak.bundle + "/changelog"} 
           children = {<Changelog changelog = {tweak.changelog}/>}/>
       ))}
-    </BrowserRouter>
-  </React.StrictMode>), 
+    </Switch>
+    </HashRouter>
+  ), 
 document.getElementById('root'));
 
 // If you want to start measuring performance in your app, pass a function

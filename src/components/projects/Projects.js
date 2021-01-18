@@ -33,18 +33,24 @@ function Projects() {
                             getProject(project)
                         ))}
                     </div>
-=                <div style={{paddingTop:'5%'}} />
+                    <div style={{paddingTop:'5%'}} />
                 <Footer />
             </div>
         )
     } else {
         return (
             <div>
-                <h1 class="projects-title">Projects</h1>
-                <div class="projects-container">
-                    {projects.map((project) => (
-                        getProject(project)
-                    ))}
+                <div className="projects-header">
+                    <img style={{height:'2rem'}} src="/assets/icons/icons8-chevron-down-100(1).png"></img>
+                    <h1 className="projects-title">Projects</h1>
+                </div>
+
+                <div className="projects-background">
+                    <div className="projects-container">
+                        {projects.map((project) => (
+                            getProject(project)
+                        ))}
+                    </div>
                 </div>
             </div>
         )

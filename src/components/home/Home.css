@@ -7,11 +7,12 @@
     grid-auto-flow: row;
     /* background-color: #5a0fa0; */
     padding-top: 8%;
-    padding-bottom: 22%;
+    padding-bottom: 10%;
     /* background-color: blueviolet; */
-    margin-left: 10%;
-    margin-right: 10%;
-    border-radius: 10px;
+    /* margin-left: 10%;
+    margin-right: 10%; */
+    /* border-radius: 10px; */
+    background-color: white;
 }
 
 .left {
@@ -36,16 +37,16 @@
 }
 
 .name {
-    font-family: 'Rubik';
+    font-family: 'Poppins';
     font-size: 6rem;
     font-weight: bold;
     text-align: left;
-    margin-left: 15%;
+    margin-left: 20%;
     /* color: #d3d3d3; */
     color: floralwhite;
-    animation-name: fade;
+    /* animation-name: fade;
     animation-duration: 1s;
-    animation-timing-function: ease-in;
+    animation-timing-function: ease-in; */
 
 }
 
@@ -53,25 +54,33 @@
     font-family: 'Rubik';
     font-size: 2rem;
     font-weight: 500;
-    color: #d3d3d3;
-    background-color: #6947a0;
+    color: rgb(199, 196, 190);
+    background: #0f0d11ea;
     border-radius: 10px;
     text-align: left;
     margin-right: 10%;
     padding: 3%;
+    box-shadow: 0px 12px 18px -6px rgba(0, 0, 0, 0.6);
+
 
 }
 
 p {
-    animation-name: fade;
+    /* animation-name: fade;
     animation-duration: 1s;
-    animation-timing-function: ease-in;
+    animation-timing-function: ease-in; */
 }
 
 h3 {
-    animation-name: fade;
+    /* color: rgb(199, 196, 190); */
+    /* animation-name: fade;
     animation-duration: 1s;
-    animation-timing-function: ease-in;
+    animation-timing-function: ease-in; */
+}
+
+.welcome {
+    color: rgb(199, 196, 190);
+
 }
 
 /* .fade-in {
@@ -98,10 +107,22 @@ h3 {
     .name {
         font-size: 3rem;
         padding-bottom: 10%;
+        margin-left: 20%;
     }
     .description {
         font-size: 2rem;
         align-self: center;
         margin-right: 0%;
     }
+  }
+
+  .parallax {
+    background-image: url("hao-wang-pVq6YhmDPtk-unsplash.jpg");
+  
+    height: 100%;
+  
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
   }

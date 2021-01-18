@@ -1,6 +1,4 @@
-body {
-    background-color: black;
-}
+
 
 .tweak-name {
     text-align: center;
@@ -20,7 +18,7 @@ body {
 #carousel {
     width: 100%;
     height: fit-content;
-    background-color: black;
+    background-color: #0f0d11;
     
     overflow: auto;
     white-space:nowrap;

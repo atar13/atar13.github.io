@@ -6,7 +6,7 @@
     padding-right: 20%;
     padding-top: 2%;
     padding-bottom: 2%;
-    background-color: #2B2D30;
+    background-color: #444eaa;
 }
 
 a {
@@ -14,4 +14,8 @@ a {
     font-size: large;
     font-family: Rubik;
     text-decoration: none;
+}
+
+a :hover {
+    color:blueviolet
 }
