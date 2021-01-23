@@ -12,7 +12,7 @@ SHA256: 95042b47346343dc06f812870601e0969e4f715d53d22f89fdcbbdff497aaa19
 Section: Tweaks
 Description: By default hides the lock screen clock until the user manually taps the screen.
 Author: atar13 <atar13dev@gmail.com>
-Depiction: http://atar13.github.io/#/repo/com.atar13.houdini
+Depiction: http://atar13.github.io/repo/com.atar13.houdini
 Icon: https://atar13.github.io/assets/package_icons/houdini.png
 Name: Houdini
 
@@ -30,7 +30,7 @@ SHA256: e60a03ee77ffd5a87df7eb7f798077f02e7efeed6470251213a1b54533ad29c6
 Section: Tweaks
 Description: By default hides the lock screen clock until the user manually taps the screen.
 Author: atar13 <atar13dev@gmail.com>
-Depiction: https://atar13.github.io/#/repo/com.atar13.houdini
+Depiction: https://atar13.github.io/repo/com.atar13.houdini
 Icon: https://atar13.github.io/assets/package_icons/houdini.png
 Name: Houdini
 
@@ -48,7 +48,7 @@ SHA256: 6cadb1e3755d9bbd5e0e120c5bb6b97d4002abafb72836170733dcccb6fb67c5
 Section: Tweaks
 Description: Hides the lock screen clock until the user manually taps/holds down on the screen.
 Author: atar13 <atar13dev@gmail.com>
-Depiction: http://atar13.github.io/#/repo/com.atar13.houdini
+Depiction: http://atar13.github.io/repo/com.atar13.houdini
 Icon: https://atar13.github.io/assets/package_icons/houdini.png
 Name: Houdini
 
