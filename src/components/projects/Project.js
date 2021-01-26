@@ -5,7 +5,7 @@ import "aos/dist/aos.css"
 
 function Project(props) {
 
-    const {title, language, description, id, source, alt} = props
+    const {title, language, description, id, source, alt, thumbnail} = props
 
     useEffect(() => {
         Aos.init({ duration: 0})
@@ -20,10 +20,16 @@ function Project(props) {
     if(alt === undefined || alt === ""){
         detailStatus = "none"
     }
+
+    let thumbnailStatus = ""
+    if(thumbnail === undefined || thumbnail === "") {
+        thumbnailStatus = "none"
+    }
     return (
         <div data-aos={fadeDirection} data-aos-delay="150" data-aos-duration="1000" data-aos-easing="ease-out" class="project-container">
             <h2 class="project-title">{title}</h2>
             <h4 class="project-language">{language}</h4>
+            <img className="project-thumbnail" style={{display:thumbnailStatus}} src={thumbnail} />
             <p class="project-description">{description}</p>
                 <a href={source}>
                 <div className="link-wrapper">

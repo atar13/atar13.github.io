@@ -12,7 +12,7 @@ import Changelog from './components/repo/depictions/Changelog';
 import tweaks from './components/repo/tweaks.json'
 
 ReactDOM.render((
-    <HashRouter basename='/'>
+    <BrowserRouter basename='/'>
     <Switch>
       <Route exact path = "/" component = {Home}/>
       <Route exact path = "/repo" component = {Repo}/>
@@ -33,7 +33,7 @@ ReactDOM.render((
           children = {<Changelog changelog = {tweak.changelog}/>}/>
       ))}
     </Switch>
-    </HashRouter>
+    </BrowserRouter>
   ), 
 document.getElementById('root'));
 

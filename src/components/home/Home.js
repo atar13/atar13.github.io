@@ -17,7 +17,7 @@ function Home() {
                 {/* </div> */}
                 <div class="description">
                     <h3 className="welcome">Welcome!</h3>
-                    <p>I'm an aspiring software developer and an undergraduate student studying Computer Science at UC San Diego.</p>
+                    <p>I'm a first year undergraduate student studying Computer Science at UC San Diego and an aspiring software developer.</p>
                     <p>On this website you can view my personal projects 
                         and access my repository of iOS jailbreak tweaks.</p>
                 </div>

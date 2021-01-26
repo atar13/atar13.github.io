@@ -17,6 +17,7 @@ function Navbar() {
             activeHome += activeClass
             break;
         case "/repo":
+        case "/repo/":
             activeRepo += activeClass
             break;
         case "/projects":

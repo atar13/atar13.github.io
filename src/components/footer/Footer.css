@@ -6,7 +6,7 @@
     padding-right: 20%;
     padding-top: 2%;
     padding-bottom: 2%;
-    background-color: #444eaa;
+    background-color: black;
 }
 
 a {
@@ -17,5 +17,6 @@ a {
 }
 
 a :hover {
-    color:blueviolet
+    color: #444eaa;
+    cursor: pointer;
 }

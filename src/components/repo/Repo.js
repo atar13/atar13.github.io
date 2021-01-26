@@ -32,7 +32,7 @@ function Repo() {
             <AddToPkg name="Zebra" link="zbra://sources/add/https://atar13.github.io/" />
             <AddToPkg name="Installer" link="installer://https://atar13.github.io/"/>
             <div style={{display:"grid", placeContent:"center"}}>
-                <h1 style={{display:"grid", placeContent:"center", paddingBottom:"2%"}}>Packages:</h1>
+                <h1 style={{display:"grid", placeContent:"center", paddingBottom:"5%"}}>Packages:</h1>
                 {tweaks.map((tweak) => (
                     <Package name={tweak.name} hidden={tweak.hidden} bundle={tweak.bundle} description={tweak.description} />
                 ))}

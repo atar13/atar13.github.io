@@ -16,7 +16,7 @@ function Projects() {
     let pathname = history.location.pathname
 
     function getProject(project){
-        return <Project  title={project.title} language={project.language} description={project.description} id={project.id} source={project.source} alt={project.alt}></Project>
+        return <Project  title={project.title} language={project.language} description={project.description} id={project.id} source={project.source} alt={project.alt} thumbnail={project.thumbnail}></Project>
 
     }
 
@@ -41,7 +41,7 @@ function Projects() {
         return (
             <div>
                 <div className="projects-header">
-                    <img style={{height:'2rem'}} src="/assets/icons/icons8-chevron-down-100(1).png"></img>
+                    <img style={{height:'2rem', paddingTop:'1rem'}} src="/assets/icons/icons8-chevron-down-100(1).png"></img>
                     <h1 className="projects-title">Projects</h1>
                 </div>
 
