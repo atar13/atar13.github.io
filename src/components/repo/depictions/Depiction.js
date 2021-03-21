@@ -51,6 +51,8 @@ function Depiction(props) {
     if(screenshots.length === 0){
         screenshotHiddenStatus = "hidden"
     }   
+
+    window.scrollTo(0,0)
     return (
         <div style={{color:'white'}}>
             <h1 class="tweak-name">{name}</h1>

@@ -5,7 +5,7 @@
         "bundle": "com.atar13.houdini",
         "description": "Ever felt like your lockscreen UI was blocking your breathtaking wallpaper? Houdini allows you to hide lockscreen elements with a simple tap or long press.",
         "supported-versions": [
-            "13.0", "13.5", "uncomfirmed"
+            "13.0", "14.3", "uncomfirmed"
         ],
         "features": [
             "Hide date/time and clock",

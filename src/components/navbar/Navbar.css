@@ -11,7 +11,7 @@
 }
 
 .navbar-item {
-    display: block;
+    display: flex;
     color: white;
     text-align: center;
     text-decoration: none;

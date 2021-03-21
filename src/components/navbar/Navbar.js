@@ -12,6 +12,10 @@ function Navbar() {
     let activeHome, activeRepo, activeProjects
     activeHome = activeRepo = activeProjects = "navbar-item-wrapper" 
 
+    const scrollToTop = () => {
+        document.getElementById('top')?.scrollIntoView({ behavior: 'smooth' });
+      };
+
     switch (pathname) {
         case "/":
             activeHome += activeClass
@@ -29,7 +33,7 @@ function Navbar() {
     return (
         <div>
             <ul class="navbar-container">
-                <div class={activeHome} style={{float:'left'}}><Link to='/' class="navbar-item">Home</Link></div>
+                <div class={activeHome} style={{float:'left'}}><Link to='/' onClick={scrollToTop} class="navbar-item">Home</Link></div>
                 <div class={activeRepo} style={{float:'left'}}><Link to='/repo' class="navbar-item">Repo</Link></div>
                 <div class={activeProjects} style={{float:'left'}}><Link to='/projects' class="navbar-item">Projects</Link></div>
                 <a href="https://github.com/atar13">        

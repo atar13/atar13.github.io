@@ -23,14 +23,18 @@ function AddToPkg(props){
 
 
 function Repo() {
+
+    const repoURL = "https://atar13.github.io/repo"
+    window.scrollTo(0,0)
+
     return (
         <div>
             <Navbar/>
             <h1 style={{display:"flex", justifyContent:"center", paddingBottom:"2%"}}>atar13's tweak repository</h1>
-            <AddToPkg name="Cyida" link="cydia://url/https://cydia.saurik.com/api/share#?source=https://atar13.github.io/"/>
-            <AddToPkg name="Sileo" link="sileo://source/https://atar13.github.io/"/>
-            <AddToPkg name="Zebra" link="zbra://sources/add/https://atar13.github.io/" />
-            <AddToPkg name="Installer" link="installer://https://atar13.github.io/"/>
+            <AddToPkg name="Cyida" link={`cydia://url/https://cydia.saurik.com/api/share#?source=${repoURL}`}/>
+            <AddToPkg name="Sileo" link={`sileo://source/${repoURL}`}/>
+            <AddToPkg name="Zebra" link={`zbra://sources/add/${repoURL}`} />
+            <AddToPkg name="Installer" link={`installer://${repoURL}`}/>
             <div style={{display:"grid", placeContent:"center"}}>
                 <h1 style={{display:"grid", placeContent:"center", paddingBottom:"5%"}}>Packages:</h1>
                 {tweaks.map((tweak) => (
