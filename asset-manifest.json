@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/static/css/main.2b71f6c2.chunk.css",
-    "main.js": "/static/js/main.ccd00d9d.chunk.js",
-    "main.js.map": "/static/js/main.ccd00d9d.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.5074e50e.js",
-    "runtime-main.js.map": "/static/js/runtime-main.5074e50e.js.map",
-    "static/css/2.ec02d681.chunk.css": "/static/css/2.ec02d681.chunk.css",
-    "static/js/2.ef0e2513.chunk.js": "/static/js/2.ef0e2513.chunk.js",
-    "static/js/2.ef0e2513.chunk.js.map": "/static/js/2.ef0e2513.chunk.js.map",
-    "static/js/3.e81ae7f0.chunk.js": "/static/js/3.e81ae7f0.chunk.js",
-    "static/js/3.e81ae7f0.chunk.js.map": "/static/js/3.e81ae7f0.chunk.js.map",
+    "main.css": "/static/css/main.7f7277b5.chunk.css",
+    "main.js": "/static/js/main.824b132e.chunk.js",
+    "main.js.map": "/static/js/main.824b132e.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.185b74ec.js",
+    "runtime-main.js.map": "/static/js/runtime-main.185b74ec.js.map",
+    "static/css/2.7fc9bc2b.chunk.css": "/static/css/2.7fc9bc2b.chunk.css",
+    "static/js/2.df28ecca.chunk.js": "/static/js/2.df28ecca.chunk.js",
+    "static/js/2.df28ecca.chunk.js.map": "/static/js/2.df28ecca.chunk.js.map",
+    "static/js/3.42be4cfe.chunk.js": "/static/js/3.42be4cfe.chunk.js",
+    "static/js/3.42be4cfe.chunk.js.map": "/static/js/3.42be4cfe.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/2.ec02d681.chunk.css.map": "/static/css/2.ec02d681.chunk.css.map",
-    "static/css/main.2b71f6c2.chunk.css.map": "/static/css/main.2b71f6c2.chunk.css.map",
-    "static/js/2.ef0e2513.chunk.js.LICENSE.txt": "/static/js/2.ef0e2513.chunk.js.LICENSE.txt",
+    "static/css/2.7fc9bc2b.chunk.css.map": "/static/css/2.7fc9bc2b.chunk.css.map",
+    "static/css/main.7f7277b5.chunk.css.map": "/static/css/main.7f7277b5.chunk.css.map",
+    "static/js/2.df28ecca.chunk.js.LICENSE.txt": "/static/js/2.df28ecca.chunk.js.LICENSE.txt",
     "static/media/Home.css": "/static/media/hao-wang-pVq6YhmDPtk-unsplash.59d07848.jpg",
     "static/media/Projects.css": "/static/media/pawel-czerwinski-bX9B9c-YasY-unsplash.c42e2a2a.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.5074e50e.js",
-    "static/css/2.ec02d681.chunk.css",
-    "static/js/2.ef0e2513.chunk.js",
-    "static/css/main.2b71f6c2.chunk.css",
-    "static/js/main.ccd00d9d.chunk.js"
+    "static/js/runtime-main.185b74ec.js",
+    "static/css/2.7fc9bc2b.chunk.css",
+    "static/js/2.df28ecca.chunk.js",
+    "static/css/main.7f7277b5.chunk.css",
+    "static/js/main.824b132e.chunk.js"
   ]
 }
