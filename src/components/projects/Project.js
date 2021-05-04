@@ -29,7 +29,7 @@ function Project(props) {
         <div data-aos={fadeDirection} data-aos-delay="150" data-aos-duration="1000" data-aos-easing="ease-out" class="project-container">
             <h2 class="project-title">{title}</h2>
             <h4 class="project-language">{language}</h4>
-            <img className="project-thumbnail" style={{display:thumbnailStatus}} src={thumbnail} />
+            <img alt={title} className="project-thumbnail" style={{display:thumbnailStatus}} src={thumbnail} />
             <p class="project-description">{description}</p>
                 <a href={source}>
                 <div className="link-wrapper">

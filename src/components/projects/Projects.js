@@ -41,7 +41,7 @@ function Projects() {
         return (
             <div>
                 <div className="projects-header">
-                    <img style={{height:'2rem', paddingTop:'1rem'}} src="/assets/icons/icons8-chevron-down-100(1).png"></img>
+                    <img alt="projects-chevron" style={{height:'2rem', paddingTop:'1rem'}} src="/assets/icons/icons8-chevron-down-100(1).png"></img>
                     <h1 className="projects-title">Projects</h1>
                 </div>
 

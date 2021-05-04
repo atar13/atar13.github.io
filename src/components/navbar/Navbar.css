@@ -11,6 +11,7 @@
 }
 
 .navbar-item {
+    transition: 300ms all;
     display: flex;
     color: white;
     text-align: center;
@@ -27,7 +28,7 @@
 }
 
 .navbar-item-wrapper :hover {
-    background-color: #0f0d11;
+    background-color: #2e2e2e;
 }
 
 .navbar-icons {
