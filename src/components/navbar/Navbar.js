@@ -1,5 +1,6 @@
 import React from 'react'
 import { useHistory, Link } from 'react-router-dom'
+import {Link as ScrollLink} from 'react-scroll'
 import './Navbar.css'
 
 
@@ -11,10 +12,6 @@ function Navbar() {
 
     let activeHome, activeRepo, activeProjects
     activeHome = activeRepo = activeProjects = "navbar-item-wrapper" 
-
-    const scrollToTop = () => {
-        document.getElementById('top')?.scrollIntoView({ behavior: 'smooth' });
-      };
 
     switch (pathname) {
         case "/":
@@ -33,9 +30,9 @@ function Navbar() {
     return (
         <div>
             <ul class="navbar-container">
-                <div class={activeHome} style={{float:'left'}}><Link to='/' onClick={scrollToTop} class="navbar-item">Home</Link></div>
+                <div class={activeHome} style={{float:'left'}}><Link to='/' class="navbar-item">Home</Link></div>
                 <div class={activeRepo} style={{float:'left'}}><Link to='/repo' class="navbar-item">Repo</Link></div>
-                <div class={activeProjects} style={{float:'left'}}><Link to='/projects' class="navbar-item">Projects</Link></div>
+                <div class={activeProjects} style={{float:'left'}}><ScrollLink to='projects' smooth={true} class="navbar-item">Projects</ScrollLink></div>
                 <a href="https://github.com/atar13">        
                     <div class="navbar-item-wrapper" style={{float:'right'}}>
                         <div class="navbar-item">
@@ -43,7 +40,7 @@ function Navbar() {
                         </div>
                     </div>
                 </a>
-                <a href="https://www.linkedin.com/in/anthony-tarbinian-82446b13b/">
+                <a href="https://www.linkedin.com/in/atarbinian/">
                     <div class="navbar-item-wrapper" style={{float:'right'}}>
                         <div class="navbar-item">
                             <img class="navbar-icons" alt="Linkedin" src="/assets/icons/linkedin-240.png"></img>

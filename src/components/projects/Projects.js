@@ -7,15 +7,15 @@ import projects from './projects.json'
 
 function Projects() {
 
-    //add github link (if applicable)
-    //add project link (if applicable)
   
+    // TODO: improve stylings on links
 
 
     let history = useHistory()
     let pathname = history.location.pathname
 
     function getProject(project){
+        // TODO: make this a json 
         return <Project  title={project.title} language={project.language} description={project.description} id={project.id} source={project.source} alt={project.alt} thumbnail={project.thumbnail}></Project>
 
     }
@@ -40,10 +40,6 @@ function Projects() {
     } else {
         return (
             <div>
-                <div className="projects-header">
-                    <img alt="projects-chevron" style={{height:'2rem', paddingTop:'1rem'}} src="/assets/icons/icons8-chevron-down-100(1).png"></img>
-                    <h1 className="projects-title">Projects</h1>
-                </div>
 
                 <div className="projects-background">
                     <div className="projects-container">
