@@ -1,5 +1,29 @@
 [
     {
+        "name":"Vaon",
+        "hidden": false,
+        "bundle": "com.atar13.vaon",
+        "description": "Bluetooth battery information in the app switcher. Also displays the last known battery status of disconnected devices.",
+        "supported-versions": [
+            "13.0", "14.3", "uncomfirmed"
+        ],
+        "features": [
+            "Provides Bluetooth device battery information in the iOS app switcher.",
+            "Shows the last known battery status of disconnected devices.",
+            "Displays AirPods, Apple Watch, iPhone/iPad, and any other bluetooth device.",
+            "iPad Style grid app switcher.",
+            "Custom sizing and placement.",
+            "Animates the color of charging device's battery cell outline."
+        ],
+        "changelog": {
+            "1.0": ["Initial Release"]
+        },
+        "screenshots": [
+            "Vaon_animation.gif", "vaon.png"
+        ],
+        "thumbnail": "Vaon_animation.gif"
+    },
+    {
         "name":"Houdini",
         "hidden": false,
         "bundle": "com.atar13.houdini",
@@ -25,29 +49,7 @@
         },
         "screenshots": [
             "Houdini.gif", "HoudiniBA.png"
-        ]
-    },
-    {
-        "name":"Vaon",
-        "hidden": true,
-        "bundle": "com.atar13.vaon",
-        "description": "Bluetooth battery information in the app switcher. Also displays the last known battery status of disconnected devices.",
-        "supported-versions": [
-            "13.0", "13.5", "unsupported"
         ],
-        "features": [
-            "Provides Bluetooth device battery information in the iOS app switcher.",
-            "Shows the last known battery status of disconnected devices.",
-            "Displays AirPods, Apple Watch, iPhone/iPad, and any other bluetooth device.",
-            "iPad Style grid app switcher",
-            "Custom sizing and placement",
-            "Animates the color of charging device's battery cell outline"
-        ],
-        "changelog": {
-            "1.0": ["Initial Release"]
-        },
-        "screenshots": [
-            "Vaon_animation.gif", "vaon.png"
-        ]
+        "thumbnail": "houdiniThumbnail.gif"
     }
 ]
