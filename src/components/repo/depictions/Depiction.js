@@ -62,7 +62,7 @@ function Depiction(props) {
             <div id="carousel" class={screenshotHiddenStatus}>
                 {screenshots.map((screenshot) => (
                 <div class="slide">
-                    <img alt={screenshot} src= {"/assets/" + bundle +"/" + screenshot}></img>
+                    <img className="tweak-img" alt={screenshot} src= {"/assets/" + bundle +"/" + screenshot}></img>
                 </div>
             ))}
             </div>

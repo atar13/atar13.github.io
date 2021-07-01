@@ -29,5 +29,9 @@
 #carousel .slide {
     display: inline-block;
     padding-right: 5%;
-    
+}
+
+.tweak-img {
+    max-width: 400px;
+    height: auto;
 }
