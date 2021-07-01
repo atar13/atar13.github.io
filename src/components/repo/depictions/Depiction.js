@@ -25,7 +25,7 @@ function Depiction(props) {
     let deviceCompatibility = getDeviceCompatibility(supportedVersions[0], supportedVersions[1], supportedVersions[2])
     let compatibilityMessage = ""
     if(deviceCompatibility !== 1){
-        compatibilityMessage = name + " is supported from iOS 13.0 to 13.5"
+        compatibilityMessage = name + ` is supported from iOS ${supportedVersions[0]} to ${supportedVersions[1]}`
     } else {
         compatibilityMessage = "✅ Your iOS Version is Supported"
     }

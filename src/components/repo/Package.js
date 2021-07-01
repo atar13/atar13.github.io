@@ -4,19 +4,22 @@ import './Repo.css'
 
 function Package(props) {
 
-    const { name, hidden, bundle, description } = props
-    
+    const { tweak } = props
+
     let hiddenStatus
-    if(hidden){
+    if (tweak.hidden) {
         hiddenStatus = "none"
     }
     return (
-        <div style={{display:hiddenStatus}} className="pkg-wrapper">
-            <div className="pkg-name">{name}</div>
-            <div className="pkg-summary">{description}</div>
-            <Link to={`/repo/${bundle}`}>
-                <button className="pkg-button">Details</button>
-            </Link>
+        <div style={{ display: hiddenStatus }} className="pkg-wrapper">
+            <div className="pkg-name">{tweak.name}</div>
+            <div className="pkg-summary">{tweak.description}</div>
+            <img className="pkg-thumbnail" src={`/assets/${tweak.bundle}/${tweak.thumbnail}`} alt={tweak.name} />
+            <div style={{ display: 'flex', justifyContent: 'center' }}>
+                <Link class="pkg-button-wrapper" to={`/repo/${tweak.bundle}`}>
+                    <button class="pkg-button">Details</button>
+                </Link>
+            </div>
         </div>
     )
 }
