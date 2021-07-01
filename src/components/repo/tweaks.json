@@ -19,9 +19,9 @@
             "1.0": ["Initial Release"]
         },
         "screenshots": [
-            "Vaon_animation.gif", "vaon.png"
+            "vaon.gif","Vaon_animation.gif", "vaon.png"
         ],
-        "thumbnail": "Vaon_animation.gif"
+        "thumbnail": "vaon.gif"
     },
     {
         "name":"Houdini",

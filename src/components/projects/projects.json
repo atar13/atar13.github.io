@@ -12,7 +12,7 @@
         "id":2,
         "source":"https://github.com/atar13/vaon",
         "alt":"http://atar13.github.io/repo/com.atar13.vaon",
-        "thumbnail":"/assets/com.atar13.vaon/Vaon_animation.gif"},
+        "thumbnail":"/assets/com.atar13.vaon/vaon.gif"},
     {"title":"Christmas Countdown Twitter Bot", 
         "language":"Javascript (NodeJS, Express, Twitter API)", 
         "description":"A Twitter bot that uses the Twitter API to tweet every day with the number of days remaining until Christmas.",
