@@ -59,10 +59,10 @@ Maintainer: atar13 <atar13dev@gmail.com>
 Installed-Size: 460
 Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, ws.hbang.common
 Filename: ./debs/com.atar13.vaon_1.0_iphoneos-arm.deb
-Size: 63600
-MD5sum: 4262c420a44c1caee016307e3b454a2e
-SHA1: b2f6511b86b16bc229a5a649d35f4cfc8afe6796
-SHA256: 089dcfc9f55cdea9ec58a09cb77dd7cbcab0359c405c81ac05e47dd55a1d0a07
+Size: 63626
+MD5sum: 2714495929c40f690570eff4841c7bec
+SHA1: 084888f7789437d5d0f3cc71b9107bfe3ab8cec5
+SHA256: 093131ae0f7b247066b5d36395544308a483806fdf2467b34029b59af8da8d01
 Section: Tweaks
 Description: Bluetooth battery information of connected/disconnected devices in the app switcher.
 Author: atar13 <atar13dev@gmail.com>
