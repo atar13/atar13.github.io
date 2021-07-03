@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import Footer from '../footer/Footer'
 import Navbar from '../navbar/Navbar'
 import Package from './Package'
@@ -25,7 +25,9 @@ function AddToPkg(props) {
 function Repo() {
 
     const repoURL = "https://atar13.github.io/repo"
-    window.scrollTo(0, 0)
+    useEffect(() => {
+        window.scrollTo(0, 0)
+      }, [])
 
     return (
         <div>

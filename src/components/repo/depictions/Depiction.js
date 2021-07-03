@@ -1,7 +1,7 @@
 //add a return to main page button 
 //fix footer
 
-import React from 'react'
+import React, { useEffect } from 'react'
 import { Link } from 'react-router-dom'
 import DepictionFooter from './DepictionFooter'
 import './Depiction.css'
@@ -30,29 +30,20 @@ function Depiction(props) {
         compatibilityMessage = "✅ Your iOS Version is Supported"
     }
 
-    // const parsedChangelog = JSON.parse(changelog)
+    // // const parsedChangelog = JSON.parse(changelog)
     let newestVersion = 1.0
-    // for(let change in parsedChangelog){
-    //     console.log(change)
-    // }
-    Object.keys(changelog).forEach(version => {
-        if(version >= newestVersion){
-            newestVersion = version
-        }
-    })
-    let mostRecentChanges
-    if(changelog[newestVersion] !== undefined && changelog[newestVersion].length !== 0){
-        mostRecentChanges = changelog[newestVersion]
-    } else {
-        mostRecentChanges = [""]
-    }
+    newestVersion = Object.keys(changelog)[0];
+
+    let mostRecentChanges = changelog[newestVersion];
     let screenshotHiddenStatus = ""
 
     if(screenshots.length === 0){
         screenshotHiddenStatus = "hidden"
     }   
 
-    window.scrollTo(0,0)
+    useEffect(() => {
+        window.scrollTo(0, 0)
+      }, [])
     return (
         <div style={{color:'white'}}>
             <h1 class="tweak-name">{name}</h1>
