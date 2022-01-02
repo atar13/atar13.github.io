@@ -6,7 +6,7 @@
         "description": "Bluetooth battery information in the app switcher. Also displays the last known battery status of disconnected devices.",
         "supported-versions": [
             "13.0",
-            "14.3",
+            "14.7",
             "uncomfirmed"
         ],
         "features": [
@@ -18,6 +18,9 @@
             "Animates the color of charging device's battery cell outline."
         ],
         "changelog": {
+            "1.0.6": [
+                "Color Customization"
+            ],
             "1.0.5": [
                 "Fixed an issue where duplicate devices would appear"
             ],
