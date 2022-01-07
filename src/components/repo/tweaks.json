@@ -18,6 +18,10 @@
             "Animates the color of charging device's battery cell outline."
         ],
         "changelog": {
+            "1.0.7": [
+								"Added option to customize Vaon's background blur effect",
+								"Added option to customize device glyph background blur effect"
+						],
             "1.0.6": [
                 "Color Customization"
             ],
