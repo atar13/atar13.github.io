@@ -196,3 +196,21 @@ Depiction: https://atar13.github.io/repo/com.atar13.vaon
 Icon: https://atar13.github.io/assets/package_icons/vaonIcon.png
 Name: Vaon
 
+Package: com.atar13.vaon
+Version: 1.1.0
+Architecture: iphoneos-arm
+Maintainer: atar13 <atar13dev@gmail.com>
+Installed-Size: 576
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, ws.hbang.common, ws.hbang.alderis (>= 1.1)
+Filename: ./debs/com.atar13.vaon_1.1.0_iphoneos-arm.deb
+Size: 71156
+MD5sum: a1692690151d378baa52a5c9770794eb
+SHA1: ebb89fee78d3800c68eb3e2af6183d430419fdbd
+SHA256: 55b46c61567e621b149efa654c999ec5c7ac020311ce0c99f7d774259e6d4b2b
+Section: Tweaks
+Description: Bluetooth battery information of connected/disconnected devices in the app switcher.
+Author: atar13 <atar13dev@gmail.com>
+Depiction: https://atar13.github.io/repo/com.atar13.vaon
+Icon: https://atar13.github.io/assets/package_icons/vaonIcon.png
+Name: Vaon
+
