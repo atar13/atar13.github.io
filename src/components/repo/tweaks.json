@@ -18,6 +18,9 @@
             "Animates the color of charging device's battery cell outline."
         ],
         "changelog": {
+            "1.1.0": [
+                "Added and option to customize horzontal spacing between devices"
+            ],
             "1.0.9": [
                 "Custom color picker for battery percentage text color",
                 "Changed default light/dark text colors for battery percentage text"
