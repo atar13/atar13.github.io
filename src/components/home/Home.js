@@ -15,7 +15,7 @@ function Home() {
                 <label class="name">Anthony Tarbinian</label>
                 <div class="description">
                     <h3 className="welcome">Welcome!</h3>
-                    <p>I'm a second year undergraduate student studying Computer Science at UC San Diego and an aspiring software developer.</p>
+                    <p>I'm a third year undergraduate student studying Computer Science at UC San Diego.</p>
                     <p>On this website you can view my personal projects 
                         and access my repository of iOS jailbreak tweaks.</p>
                 </div>
