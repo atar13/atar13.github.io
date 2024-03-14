@@ -1,8 +1,0 @@
-Origin: atar13's Repository
-Label: atar13's Repository
-Suite: stable
-Version: 1.0
-Codename: ios
-Architectures: iphoneos-arm iphoneos-arm64
-Components: main
-Description: APT repository for jailbreak tweaks

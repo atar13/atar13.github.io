@@ -1,8 +1,0 @@
-Origin: Use https://atar13.github.io/repo 
-Label: Use https://atar13.github.io/repo 
-Suite: stable
-Version: 1.0
-Codename: ios
-Architectures: iphoneos-arm
-Components: main
-Description: OLD REPOSITORY. GO TO https://atar13.github.io/repo
