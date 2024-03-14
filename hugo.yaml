@@ -1,10 +1,6 @@
-baseURL = 'https://example.org/'
-languageCode = 'en-us'
-title = 'My New Hugo Site'
-theme = "hugo-profile"
-baseURL: "https://hugo-profile.netlify.app"
+baseURL: "https://atarbinian.com"
 languageCode: "en-us"
-title: "Hugo Profile"
+title: "Anthony Tarbinian"
 theme: hugo-profile
 
 outputs:
@@ -57,7 +53,7 @@ Menus:
     #   weight: 2
 
 params:
-  title: "Hugo Profile"
+  title: "Anthony Tarbinian"
   description: Text about my cool site
   # staticPath: ""  # The path to serve the static files from
   favicon: "/fav.png"
@@ -111,7 +107,7 @@ params:
     # brandLogo: "/logo.png" # Logo for the brand | default is the favicon variable
     # showBrandLogo: false # Show brand logo in nav bar | default is true
     brandName: "Hugo Profile" # Brand name for the brand | default is the title variable
-    disableSearch: false
+    disableSearch: true 
     # searchPlaceholder: "Search"
     stickyNavBar:
       enable : true
@@ -128,25 +124,25 @@ params:
   hero:
     enable: true
     intro: "Hi, my name is"
-    title: "Isabella."
-    subtitle: "I build things for the web"
-    content: "A passionate web app developer. I tend to make use of modern web technologies to build websites that looks great, feels fantastic, and functions correctly."
-    image: /images/hero.svg
+    title: "Anthony Tarbinian"
+    subtitle: ""
+    content: "Comuter Science Student at UC San Diego"
+    image: /images/lajolla.jpg
     bottomImage:
       enable: true
     # roundImage: true # Make hero image circular | default false
     button:
       enable: true
-      name: "Resume"
-      url: "#"
+      name: "About Me"
+      url: "#about"
       download: true
       newPage: false
     socialLinks:
       fontAwesomeIcons:
         - icon: fab fa-github
-          url: https://example.com
-        - icon: fab fa-x-twitter
-          url: https://example.com
+          url: https://github.com/atar13
+        - icon: fab fa-linkedin
+          url: https:///atar13
       customIcons:
         - icon: /fav.png
           url: "https://example.com"
@@ -155,13 +151,17 @@ params:
   about:
     enable: true
     title: "About Me"
-    image: "/images/me.png"
+    image: "/images/polaroid.jpg"
     content: |-
-      I am a software developer with a passion for web development. I have a background in computer science and mathematics, and I have a strong interest in the intersection of technology and art. I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. 
+      I'm a 4th year computer science student at UC San Diego. Within computer science, I'm passionate about building reliable and secure systems. In particular, I'm interested in topics ranging from compilers, operating systems and embedded systems.
 
-      I am currently working on a project that will be used to help people find the best way to get around the city.
+      Outside of classes, I'm involved with [Triton Unmaned Aerial Systems](https://tuas.ucsd.edu) where I lead the software subteam. I'm also working on [TockOS](https://github.com/tock/tock), which is a secure operating system for embedded devices.
+
+      Recently I've gotten into the hobby of maintaining my own home server. Expect to see a blog post sometimes soon™ about the trials and tribulations of getting that set up. In the past, I used to spend more time working on iOS jailbreak tweaks such as [Vaon](https://github.com/atar13/Vaon).
+
+      Besides school and software, you can find me crocheting, practicing [karate at UCSD](https://aoinagikenshukai.com/locations/ucsd/), and complaining about how the Amtrak Pacific Surfliner is [always closed](https://can-i-get-to-la.today/).
     skills:
-      enable: true
+      enable: false 
       title: "Here are a few technologies I've been working with recently:"
       items:
         - "HTML"
@@ -174,67 +174,27 @@ params:
   # Experience
   experience:
     enable: true
-    # title: "Custom Name"
     items:
-      - job: "Senior Software Developer"
-        company: "Facebook"
-        companyUrl: "https://example.com"
-        date: "Jan 2022 - present"
-        featuredLink:
-          enable: true
-          name: "View the project"
-          url: "https://example.com"
-        content: "I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city."
-
-      - job: "Software Developer"
-        company: "Amazon"
-        companyUrl: "https://example.com"
-        date: "Sep 2020 - Dec 2021"
-        featuredLink:
-          enable: true
-          url: "https://example.com"
-        info:
-          enable: true
-          content: I worked as a software developer for more than one year in Amazon.
-        content: |
-          I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city.
-
-          - Lead backend developer for a product.
-          - Created a frontend design for a product.
-
-      - job: "Junior Software Developer"
+      - job: "Software Engineering Intern"
         company: "Apple"
-        companyUrl: "https://example.com"
-        date: "Jan 2020 - Aug 2020"
-        info:
-          enable: false
-        featuredLink:
-          enable: true
-          url: "https://example.com"
-        content: |
-          I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city.
-
-          - Lead backend developer for a product.
-          - Created a frontend design for a product.
-
-      - job: "UI/UX Designer"
-        company: "Netflix"
-        companyUrl: "https://example.com"
-        date: "June 2017 - Nov 2019"
-        featuredLink:
-          enable: true
-          url: "https://example.com"
-        content: |
-          I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city.
-
-          - Lead backend developer for a product.
-          - Created a frontend design for a product.
-
-      - job: "Product Designer"
-        company: "Google"
-        companyUrl: "https://example.com"
-        date: "Feb 2016 - Mar 2017"
-        content: "I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city."
+        companyUrl: "https://apple.com"
+        date: "Jun 2023 - Sep 2023"
+        content: "- Developed a scanner written in Go to automatically detect security vulnerabilities"
+      - job: "Software Engineering Intern"
+        company: "Apple"
+        companyUrl: "https://apple.com"
+        date: "Jun 2022 - Sep 2022"
+        content: |-
+          - Developed software written in Go to remotely diagnose and respond to security incidents on Linux servers
+          - Deployed feature to over a quarter million production systems
+          - Created a tool that traverses a dependency graph to automatically update and deploy backend services
+      - job: "Software Development Intern"
+        company: "ETA Compute"
+        companyUrl: "https://etacompute.com/"
+        date: "Jun 2021 - Sep 2021"
+        content: |-
+          - Performed testing on a neural network compiler that uses quantization to optimize large models for power efficiency on IoT devices
+          - Automated a testing workflow using Bash and Python scripts to test correctness and efficiency of quantized models
 
   # Education
   education:
@@ -242,46 +202,23 @@ params:
     # title: "Custom Name"
     index: false
     items:
-      - title: "Master of Business Administration"
+      - title: "M.S. Computer Science"
         school:
-          name: "University of California, Berkeley"
-          url: "https://example.org"
-        date: "2013 - 2015"
-        GPA: "3.8 out of 5.0"
+          name: "University of California, San Diego"
+          url: "https://cseweb.ucsd.edu/"
+        date: "2024 - 2025 (Planned)"
         content: |-
-          Extracurricular Activities
-            - Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-            - Tempora esse, eaque delectus nulla quo doloribus itaque expedita alias natus optio totam maxime nihil excepturi velit a animi laborum hic similique.
-      - title: "Bachelor of Science in Computer Science"
+      - title: "B.S. Computer Science"
         school:
-          name: "Massachusetts Institute of Technology"
-          url: "https://example.org"
-        date: "2009 - 2013"
-        GPA: "3.9 out of 5.0"
-        content: |-
-          I Publiced two papers in the ACM SIGCHI Conference on Artificial Intelligence.
-          - [Fast and Accurate Object Detection with a Single Convolutional Neural Network](https://example.com)
-          - Face mask detection using a single convolutional neural network.
-
-          Extracurricular Activities
-            - Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-            - Tempora esse, eaque delectus nulla quo doloribus itaque expedita alias natus optio totam maxime nihil excepturi velit a animi laborum hic similique.
-        featuredLink:
-          enable: true
-          name: "My academic record"
-          url: "https://example.com"
-      - title: "High School"
-        school:
-          name: "Thomas Jefferson High School for Science and Technology."
-          url: "https://example.org"
-        GPA: "4.2 out of 5.0"
-        featuredLink:
-          enable: true
-          url: "https://example.com"
+          name: "University of California, San Diego"
+          url: "https://cseweb.ucsd.edu/"
+        date: "2020 - 2024"
+        content: |- 
+          Coursework: Wireless Embedded Systems, Operating Systems, Compilers, Security, Cryptography, Functional Programming, Digital Logic Design, Graphics, AI/Deep Learning, Computer Vision
 
   # Achievements
   achievements:
-    enable: true
+    enable: false
     # title: "Custom Name"
     items:
       - title: Google kickstart runner
@@ -306,8 +243,8 @@ params:
     enable: true
     # title: "Custom Name"
     items:
-      - title: Hugo Profile
-        content: A highly customizable and mobile first Hugo template for personal portfolio and blog.
+      - title: Vaon 
+        content: iOS Jailbreak tweak that displays bluetooth device battery information in the iOS app switcher.
         image: /images/projects/profile.png
         featured:
           name: Demo
@@ -353,7 +290,7 @@ params:
 
   #Contact
   contact:
-    enable: true
+    enable: false 
     # title: "Custom Name"
     content: My inbox is always open. Whether you have a question or just want to say hi, I’ll try my best to get back to you!
     email: gurusabarisha@gmail.com
@@ -372,11 +309,8 @@ params:
       enable: true
       disableFeaturedImage: false
     socialNetworks:
-      github: https://github.com
-      linkedin: https://linkedin.com
-      twitter: https://twitter.com
-      instagram: https://instagram.com
-      facebook: https://facebook.com
+      github: https://github.com/atar13
+      linkedin: https://linkedin.com/in/atarbinian
 
   # List pages like blogs and posts
   listPages:
