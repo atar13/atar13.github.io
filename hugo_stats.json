@@ -20,15 +20,24 @@
       "ul"
     ],
     "classes": [
-      "bg-color2",
+      "bg-100",
+      "bg-gray",
+      "bg-gray-300",
       "bg-gray-50",
       "bg-white",
       "block",
       "border",
       "border-gray-100",
+      "dark:bg-100",
+      "dark:bg-200",
+      "dark:bg-500",
+      "dark:bg-900",
+      "dark:bg-black",
       "dark:bg-color1",
       "dark:bg-color2",
-      "dark:bg-gray-800",
+      "dark:bg-color3",
+      "dark:bg-red",
+      "dark:bg-red-500",
       "dark:border-gray-700",
       "dark:focus:ring-gray-600",
       "dark:hover:bg-gray-700",
@@ -48,6 +57,7 @@
       "h-full",
       "hidden",
       "hover:bg-gray-100",
+      "hover:bg-gray-600",
       "inline-flex",
       "items-center",
       "justify-between",
@@ -57,7 +67,6 @@
       "md:block",
       "md:border-0",
       "md:dark:bg-color1",
-      "md:dark:bg-gray-900",
       "md:dark:hover:bg-transparent",
       "md:dark:hover:text-blue-500",
       "md:flex-row",
@@ -89,8 +98,7 @@
       "whitespace-nowrap"
     ],
     "ids": [
-      "navbar",
-      "navbar-default"
+      "navbar"
     ]
   }
 }
